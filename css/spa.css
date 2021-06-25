@@ -249,6 +249,20 @@ a:focus {
     margin-bottom: 0;
 }
 
+
+/*CSS Form*/
+
+.formContact {
+    margin: auto;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.formContact h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 @media only screen and (max-width: 1200px) {
     .btn-custom {
         min-width: auto;

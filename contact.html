@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/spa.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="formContact">
+        <div>
+            <img class="logo" src="logo.png" alt="">
+        </div>
+        <h1>Reservation</h1>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip01" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="validationTooltip01" required>
+                <div class="valid-tooltip">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip02" class="form-label">Prenom</label>
+                <input type="text" class="form-control" id="validationTooltip02" required>
+                <div class="valid-tooltip">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltipUsername" class="form-label"> Email</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                    <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                    <div class="invalid-tooltip">
+                        Please choose a unique and valid username.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip03" class="form-label">Adresse</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip04" class="form-label">State</label>
+                <select class="form-select" id="validationTooltip04" required>
+                
+              </select>
+                <div class="invalid-tooltip">
+                    Please select a valid state.
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip05" class="form-label">Code Postal</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid zip.
+                </div>
+            </div>
+            <div class="input-group mb-3">
+
+                <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                  <option selected>Choisir...</option>
+                  <option value="1">Restaurant</option>
+                  <option value="2">Séjour</option>
+                  <option value="3">Spa</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-light" type="submit">Envoyer</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
